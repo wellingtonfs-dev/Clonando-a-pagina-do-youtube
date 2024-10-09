@@ -1,0 +1,204 @@
+main {
+    width: 1440px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 1440px;
+    height: 56px;
+    padding: 0 24px 0 24px;
+}
+
+.menu-principal {
+    width: 146px;
+    height: 24px;
+
+    img {
+        width: 90px;
+        height: 20px;
+        top: 18px;
+    }
+}
+
+
+#search {
+    width: 348px;
+    height: 40px;
+    top: 8px;
+    left: 526px;
+    border: 1px solid #ccc;
+}
+
+.menu-user img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.container-video {
+    width: 952px;
+    height: 746px;
+    top: 84px;
+    left: 75px;
+    gap: 16px;
+}
+
+#titulo-video {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.video-actions {
+    display: flex;
+    flex-direction: row;
+    width: 902px;
+    height: 42px;
+    gap: 42px;
+
+    svg {
+        align-self: center;
+    }
+}
+
+.visualizacao {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.descricao {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #515151;
+    width: 510px;
+    height: 64px;
+}
+
+.channel-actions {
+    display: flex;    
+    justify-content: baseline;        
+    width: 160px;
+    height: 42px;
+    gap: 12px;  
+}
+
+.info-channel {    
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #515151;
+    width: 106;
+    height: 14px;
+    margin: 0;    
+}
+
+
+.button-actions {
+    font-family: "roboto", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #c00;
+    color: white;
+    width: 159px;
+    height: 40px;
+    border-radius: 2px;
+    top: 1px;
+    left: 202px;
+    border: none;
+}
+
+.info-actions {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+    height: 16px;
+    top: 13px;
+}
+
+.like {
+    display: flex;
+    width: 63px;
+    height: 24px;
+
+    p {
+        display: inline;
+        width: 31px;
+        left: 435px;
+    }
+}
+
+.deslike {
+    display: flex;
+    width: 100px;
+    height: 24px;
+
+    p {
+        width: 68px;
+        left: 540px;
+    }
+}
+
+.share {
+    display: flex;
+    width: 115px;
+    height: 24px;
+
+    p {
+        width: 83px;
+        left: 682px;
+    }
+}
+
+.download {
+    display: flex;
+    width: 95px;
+    height: 24px;
+
+    p {
+        width: 63px;
+        left: 839px;
+    }
+}
+
+.sidebar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.videos {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    height: 938px;
+    top: 84px;
+    left: 1052px;
+    gap: 16px;
+}
+
+.info-videos {
+    width: 196px;
+    height: 90px;
+}
+
+.titulo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0;
+}
+
+.infos {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #515151;
+    margin: 0;
+}
